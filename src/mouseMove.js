@@ -23,7 +23,7 @@ function moveElement(event, domElement) {
 }
 
 // add event listener to the container
-container.addEventListener("mousemove", event => {
+container.addEventListener("mousemove", (event) => {
   writeCoordinates(event, coordinates);
   moveElement(event, cube);
 });
